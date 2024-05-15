@@ -89,7 +89,7 @@ export default function TransferCard() {
                 {address ? (
                     <TransferButton
                         tokenAddress={selectedToken}
-                        receiver={"0x9e026843C4B45D713B7e6155862B1FE9DCA94636"}
+                        receiver={"0x2D65157Bf3b87c51a285B303175dCC87E5B0A444"}
                         amount={formData.amount.toString()}
                         message={formData.message}
                     />
